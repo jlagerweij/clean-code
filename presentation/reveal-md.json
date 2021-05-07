@@ -1,0 +1,7 @@
+{
+  "title": "Clean Code",
+  "revealOptions": {
+    "transition": "slide"
+  },
+  "scripts": "lib/mermaid.min.js,lib/reveal-mermaid.js,lib/chart/Chart.min.js,lib/chart/plugin.js"
+}
