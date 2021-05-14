@@ -1,1 +1,23 @@
 
+Clean Code
+=
+----
+
+When something is painful but you can't avoid doing it...
+
+postpone it                   <!-- .element: class="fragment fade-in-then-out" -->
+
+delegate it                   <!-- .element: class="fragment fade-in-then-out" -->
+
+Do it more often!             <!-- .element: class="fragment" -->
+
+"Bring the pain forward"    <!-- .element: class="fragment" -->
+
+----
+Continuous Integration  <!-- .element: class="fragment" -->
+
+Pair Programming        <!-- .element: class="fragment" -->
+
+Continuous Refactoring  <!-- .element: class="fragment" -->
+
+Test-First              <!-- .element: class="fragment" -->

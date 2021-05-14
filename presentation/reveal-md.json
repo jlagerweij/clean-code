@@ -1,5 +1,10 @@
 {
   "title": "Clean Code",
+
+  "preprocessor": "preprocess.js",
+  "includeDir": "slides",
+  "_": ["/index.md"],
+
   "revealOptions": {
     "transition": "slide"
   },
