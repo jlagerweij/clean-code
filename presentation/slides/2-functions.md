@@ -95,7 +95,9 @@ No boolean params => 4, extract!
 ```
 removeOrders(customer, false, true);
 ```
-Laziness / fear / rush = legacy
+= Laziness / fear / rush = legacy 
+
+<div class="fragement">
 
 No nullable params => 2, extract!
 ```
@@ -103,10 +105,13 @@ if (customer != null) { ...  } else { ... }
 ```
 No Optional<> params!
 
+What about invalid data !?
+</div>
+
 ----
 ## Null Wars
-
-corrupt data
+ 
+(corrupt data)
 
 
 <div class="left no-bullets"><sup>
@@ -149,10 +154,12 @@ Throroughly check data only at the boundaries
 Avoid returning NULL
 -> Throw Exception
 
+<div class="fragment">
+
 Could null have Biz meaning?
 
 wrap it in an Optional<>
-
+</div>
 
 ----
 

@@ -22,7 +22,14 @@ FILE: 4-formatting.md
 
 ---
 
-# KATA
+FILE: 5-coding-kata.md
+
+---
+
+FILE: 9-thank-you.md
+
+---
+
 
 
 
