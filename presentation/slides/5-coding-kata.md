@@ -14,16 +14,14 @@ Rename
 
 Extract Method
 
-
-----
-## Extract Method
-
 ----
 ## Feature envy
 
 ```
 method(arg, ...)
 ```
+
+<div class="fragment">
 
  Move refactor:
 
@@ -32,6 +30,7 @@ arg.method(...)
 ```
 
 "Keep behaviour next to state" (OOP)
+</div>
 
 ----
 ## Most powerful forces in the universe
@@ -55,11 +54,10 @@ arg.method(...)
 </div>
 <div class="fragment">
 
-- One line per case:
+One line per case:
 
-    `: return func();`
-    
-    `: func(); break;`
+    : return func();
+    : func(); break;
 
 In Java 13: `return switch()`
 </div>
