@@ -99,20 +99,40 @@ This is not encapsulation!
 ----
 Expose behaviour, not data
 Data is an implementation detail
-`car.engineStarted = true`
-`car.setEngineStarted(true)`
-`car.startEngine()`
 
-Information hiding, Even when asked
-`car.getGasolineInLiters()`
-`car.getPercentageFuelLeft()`
-`car.getEstimatedRemainingInKm()`
+`car.engineStarted = true`      <!-- .element: class="fragment" -->
+`car.setEngineStarted(true)`    <!-- .element: class="fragment" -->
+`car.startEngine()`             <!-- .element: class="fragment" -->
 
-Implementation can evolve without breaking your clients
+Information hiding, Even when asked     <!-- .element: class="fragment" -->
+`car.getGasolineInLiters()`             <!-- .element: class="fragment" -->
+`car.getPercentageFuelLeft()`           <!-- .element: class="fragment" -->
+`car.getEstimatedRemainingInKm()`       <!-- .element: class="fragment" -->
+
+Implementation can evolve without breaking your clients <!-- .element: class="fragment" -->
 
 ----
+Minimize the API
+
+Protect client code from future changes of implementation of a Library or Framework.
+
+<div class="fragment">
+
+Decompose complex logic into separate objects
+
+```
+CsvWriter
+```
+</div>
+----
 # Procedural code
+
+<div class="fragment">
+
 Keep It Short And Simple (KISS)
+</div>
+
+<div class="fragment">
 
 We distribute logic in many classes
 Classes as containers of logic
@@ -120,9 +140,10 @@ Classes as containers of logic
 ```
 OrderService
 ```
+</div>
 
 ----
-<div class="left"  style="height: 300px">
+<div class="left fragment"  style="height: 300px">
 
 Encapsulate  
 Decomposite side-effects
@@ -130,7 +151,7 @@ Decomposite side-effects
 OOP <i class="fas fa-island-tropical fa-3x"></i>
 </div>
 
-<div class="right" style="height: 300px">
+<div class="right fragment" style="height: 300px">
 
 Consise  
 Scalable  
@@ -138,7 +159,8 @@ Debuggable
 FP  <i class="fas fa-mountains fa-3x"></i>
 </div>
 
+<div class="fragment">
 <i class="fas fa-water"></i> <i class="fas fa-water"></i> <i class="fas fa-water"></i> <i class="fas fa-water"></i> <i class="fas fa-water"></i> <i class="fas fa-water"></i> <i class="fas fa-water"></i> <i class="fas fa-water"></i>
+</div>
 
 Procedural
-
