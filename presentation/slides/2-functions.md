@@ -42,39 +42,58 @@ or perhaps even micro service?  <!-- .element: class="fragment" -->
 ----
 ## Performance vs Clean Code
 
+<div class="fragment">
+
 Smaller methods run faster!
 (get HOT faster)
 
 Google "Just-in-time Compiler Optimizations"
+
+</div>
 
 ----
 ## Scared of small functions?
 
 Instead of one familiar landscape,
 
+<div class="fragment">
+
 You're juggling with dozens of small functions
 you can't even recall their names
+</div>
+
+<div class="fragment">
 
 but,
 The Team will thank you!
 
+```
+sendActivationEmailToCustomer()
+removeAllPastCancelledOrdersOfConsumer()
+```
+
+</div>
+
 ----
 ## How to fully redesign well factored code?
 
-inline everything back
+inline everything back  <!-- .element: class="fragment" -->
 
-refactor / optimize / design
+refactor / optimize / design <!-- .element: class="fragment" -->
 
-extract again
+extract again <!-- .element: class="fragment" -->
 
 ----
 
 ```
 myBadMethod("John", "Micheal", "Paris", "St. Albergue");
 ```
-Max 3 parameters
 
-- Does too many things?
+Max 3 parameters  <!-- .element: class="fragment" -->
+
+- Does too many things? <!-- .element: class="fragment" -->
+
+<div class="fragment">
 
 - Just passes down the arguments?
     - Try to introduce Parameter Object/DTO/VO
@@ -83,26 +102,42 @@ Max 3 parameters
   ...
   myBadMethod(address);
   ```
+
 - Common parameters -> fields (OOP)
 
+</div>  
+
 ----
-## Demo
+## Common Parameters?
+
+- ManyParamsVO
+
+- ManyParamsOOP
 
 ----
 ## SRP
 
-No boolean params => 4, extract!
 ```
 removeOrders(customer, false, true);
 ```
+
+<div class="fragment">
+
+No boolean params -> extract!
+
 = Laziness / fear / rush = legacy 
+</div>
 
-<div class="fragement">
+<div class="fragment">
 
-No nullable params => 2, extract!
 ```
 if (customer != null) { ...  } else { ... }
 ```
+</div>
+<div class="fragment">
+
+No nullable params, extract!
+
 No Optional<> params!
 
 What about invalid data !?
@@ -114,7 +149,7 @@ What about invalid data !?
 (corrupt data)
 
 
-<div class="left no-bullets"><sup>
+<div class="left no-bullets fragment"><sup>
 
 - File
 
@@ -137,18 +172,22 @@ What about invalid data !?
  |                    | 
  |                    | 
  |                    | 
-/-\__________________/-\
-\-/                  \-/
+/-\_______   ________/-\
+\-/       | |        \-/
 
 ```
 
 </div>
 
+<div class="fragment">
+
 Defensive programming
+</div>
 
 ----
 ## Null Wars
 Defensive programming
+
 Throroughly check data only at the boundaries
 
 Avoid returning NULL
@@ -156,7 +195,9 @@ Avoid returning NULL
 
 <div class="fragment">
 
-Could null have Biz meaning?
+Could `null` have Biz meaning?
+</div>
+<div class="fragment">
 
 wrap it in an Optional<>
 </div>
@@ -203,26 +244,41 @@ checkAndActivateCustomer(customer, order) {
 
 - Command - return void
 
+<div class="fragment">
+
   Do side-effects  
-  `setActive(true): void`
-  `sendEmail(Email): void`
+
+  ```
+  setActive(true): void
+  sendEmail(Email): void
+  ```
+</div>
 
 - Query - return results
 
-  Pure functions  
-  `getPrice(): int`
-  `computePrice(movie): int`
+<div class="fragment">
 
+  Pure functions  
+
+  ```
+  getPrice(): int
+  computePrice(movie): int
+  ```
+
+</div>
 
 ----
 # Pure functions
 
-No side-effects
-No inserts, JMS, file, fields, WS, ...
+- No side-effects
 
-Idempotent
-Same results for same inputs
-No random, time, WS, DB, ...
+  No inserts, JMS, file, fields, WS, ...
+
+- Idempotent
+
+  Same results for same inputs
+
+  No random, time, WS, DB, ...
 
 ----
 # So many Guidelines!
@@ -254,11 +310,20 @@ I don't think anyone could.
 # The Hat metaphor
 -- Kent Beck
 
+<div class="fragment">
+
 Cowboy - Writing, making it work, Copy pasta
+</div>
+
+<div class="fragment">
 
 Detective - Cleaning, make it readable
 - What can I delete?
+</div>
+
+
+<div class="fragment">
 
 Maffiozi - Unit testing, crack it
 - How can I break it?
-
+</div>

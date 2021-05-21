@@ -122,7 +122,7 @@ without changing its external behaviour <!-- .element: class="fragment" -->
 Avoid THE refactoring sprint <!-- .element: class="fragment" -->
 
 ----
-Use case
+User Story
 <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 <div style="margin: 20px auto; font-family: 'Lato';">
 <ul style="margin:0; padding:0; list-style:none; display: flex; flex-wrap: wrap; justify-content: center; ">
@@ -139,7 +139,7 @@ Use case
     </a>
   </li>
   <li style="margin: 10px">
-    <a href="#" style="text-decoration:none; color:#000; background:#ccf; display:block; height:4em; width:4em; padding:1em; transform: rotate(-6deg);">
+    <a href="#" style="text-decoration:none; color:#000; background:#ccf; display:block; height:5em; width:4em; padding:1em; transform: rotate(-6deg);">
       <h3 style="font-weight: bold; font-size: 2rem; color:#000; ">US-42</h3>
       <p style="font-family: 'Reenie Beanie';">Unit tests</p>
     </a>
@@ -148,7 +148,7 @@ Use case
 </div>
 
 ----
-Use case
+User Story
 <div style="margin: 20px auto; font-family: 'Lato';">
 <ul style="margin:0; padding:0; list-style:none; display: flex; flex-wrap: wrap; justify-content: center; ">
   <li style="margin-right: 20px">
@@ -183,5 +183,4 @@ Mob Refactoring! (1 hr)   <!-- .element: class="fragment" -->
 
 </div>
 
-----
-What will you choose?
+

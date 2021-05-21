@@ -9,6 +9,7 @@ install:
 
 start-presentation:			## Start presentation
 	@## See: https://github.com/webpro/reveal-md
-	@docker run --rm --name reveal-md -p 1948:1948 -p 35729:35729 -v $(shell pwd):/slides webpronl/reveal-md:latest index.md --watch
+	@echo "Presentation available at http://localhost:1948/slides.md"
+	@docker run --rm --name reveal-md -p 1948:1948 -p 35729:35729 -v $(shell pwd):/slides webpronl/reveal-md:latest /slides --watch
 
 
