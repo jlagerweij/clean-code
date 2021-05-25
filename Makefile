@@ -7,3 +7,6 @@ help: ## This help.
 
 start:			## Start presentation
 	cd presentation && $(MAKE) start-presentation
+
+dev:			## Develop presentation
+	cd presentation && $(MAKE) develop-presentation

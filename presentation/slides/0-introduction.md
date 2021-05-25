@@ -116,8 +116,11 @@ without changing its external behaviour <!-- .element: class="fragment" -->
 ----
 ## Unit testing
 
+<div class="fragment">
+
 - For the code
 - Not for the Sonar coverage
+</div>
 
 Avoid THE refactoring sprint <!-- .element: class="fragment" -->
 
