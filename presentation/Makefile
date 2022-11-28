@@ -10,11 +10,11 @@ install:
 start-presentation:			## Start presentation
 	@## See: https://github.com/webpro/reveal-md
 	@echo "Presentation available at http://localhost:1948/slides.md"
-	@docker run --rm --name reveal-md -p 1948:1948 -p 35729:35729 -v $(shell pwd):/slides webpronl/reveal-md:latest /slides
+	@docker run --rm --name reveal-md -p 1948:1948 -p 35729:35729 -v $(shell pwd):/slides webpronl/reveal-md:latest /slides --theme white --css style.css
 
 develop-presentation:			## Develop presentation
 	@## See: https://github.com/webpro/reveal-md
 	@echo "Presentation available at http://localhost:1948/slides.md"
-	@docker run --rm --name reveal-md -p 1948:1948 -p 35729:35729 -v $(shell pwd):/slides webpronl/reveal-md:latest /slides --watch
+	@docker run --rm --name reveal-md -p 1948:1948 -p 35729:35729 -v $(shell pwd):/slides webpronl/reveal-md:latest /slides --watch --theme white --css style.css
 
 

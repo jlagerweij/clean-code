@@ -132,7 +132,7 @@ User Story
   <li style="margin-right: 20px">
     <a href="#" style="text-decoration:none; color:#000; background:#cfc; display:block; height:4em; width:4em; padding:1em; transform: rotate(-6deg);">
       <h3 style="font-weight: bold; font-size: 2rem; color:#000; ">US-42</h3>
-      <p style="font-family: 'Reenie Beanie';">Refactoring</p>
+      <p style="font-family: 'Reenie Beanie';">Refactor</p>
     </a>
   </li>
   <li style="margin-right: 20px">
