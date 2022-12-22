@@ -36,6 +36,14 @@ Deliberate Practice
 
 Code of Ethics
 
+----
+#### Jos Lagerweij
+
+<br/>
+
+Avisi
+
+jos.lagerweij@avisi.nl
 
 ----
 ## Clean Code ...
@@ -79,14 +87,15 @@ Productivity drops with time <!-- .element: class="fragment" -->
 ----
 ## Why Clean Code?
 
-We READ 10x more time than we WRITE
+We READ 10x more than we WRITE
 
-* Make it more readable
+* Make it more readable  <!-- .element: class="fragment" -->
 
+<div class="fragment">
 Boy scout rule:
 
 Always check in cleaner code than you found
-
+</div>
 
 ----
 ## Refactoring?
