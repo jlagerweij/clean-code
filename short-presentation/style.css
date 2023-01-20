@@ -1,0 +1,11 @@
+.reveal > .backgrounds > div {
+    background-image: url('space.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+    background-size: 700px;
+}
+
+/*.reveal > .backgrounds > div:first-child {*/
+/*    background-image: url('title-background.svg');*/
+/*}*/

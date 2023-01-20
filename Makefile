@@ -10,3 +10,9 @@ start:			## Start presentation
 
 dev:			## Develop presentation
 	cd presentation && $(MAKE) develop-presentation
+
+start-short:			## Start short-presentation
+	cd short-presentation && $(MAKE) start-presentation
+
+dev-short:			## Develop short-presentation
+	cd short-presentation && $(MAKE) develop-presentation
