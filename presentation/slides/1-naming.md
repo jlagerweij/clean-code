@@ -54,24 +54,18 @@ Have you ever blamed some code?
 
 You forget! <!-- .element: class="fragment" -->
 
-----
+<div class="fragment">
 You try to understand some code
 
 90 % of your work life
+</div>
 
 ----
-You try to understand some code
+You try to understand some code  (2 hours)
 
 Then, you get it  <!-- .element: class="fragment" -->
 
-You change only one line <!-- .element: class="fragment" -->
-
-----
-You try to understand some code (2 hours)
-
-Then, you get it
-
-You change only one line  (1 minute)
+You change only one line (1 minute) <!-- .element: class="fragment" -->
 
 How do you feel? <!-- .element: class="fragment" -->
 
@@ -104,15 +98,15 @@ More functions, less names! <!-- .element: class="fragment" -->
 ----
 ## Util classes
 
-----
-## Util classes
+<div class="fragment">
 
 - StringUtils
 - DateUtils
 - DBUtils
-- WasteUtils
+- WasteUtils <i class="fas fa-trash"></i>
 
 At least collect selectively
+</div>
 
 ----
 ## Discover value objects

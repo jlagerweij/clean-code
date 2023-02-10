@@ -57,9 +57,9 @@ Often used to cover code smells <!-- .element: class="fragment" -->
 
 ----
 
-<div class="right f4">
+<div class="right f4 ma0">
 
-```
+```java
 public List<int[]> getCells() {  
   List<int[]> list1 = new ArrayList<>();
   for (int[] x : theList)
@@ -67,9 +67,12 @@ public List<int[]> getCells() {
   return list1;
 }
 ```
-<div class="fragment">
+</div>
 
-```
+<div class="left r-stack f5">
+<div class="fragment fade-in-then-out f4" style="margin: 0 !important;">
+
+```java
 public List<int[]> getFlaggedCells() {  
   List<int[]> flaggedCells = new ArrayList<>();
   for (int[] cell : gameBoard) {
@@ -80,10 +83,8 @@ public List<int[]> getFlaggedCells() {
   return flaggedCells;
 }
 ```
-</div>
-</div>
 
-<div class="left f5 fragment">
+<div class="f4">
 
 - Readable Constants
 
@@ -97,20 +98,11 @@ public List<int[]> getFlaggedCells() {
 
 </div>
 
-----
+</div>
 
-<div class="right f4">
+<div class="fragment fade-in f4">
 
-```
-public List<int[]> getCells() {  
-  List<int[]> list1 = new ArrayList<>();
-  for (int[] x : theList)
-    if (x[0] == 4) list.add(x);
-  return list1;
-}
-```
-
-```
+```java
 public List<Cell> getFlaggedCells() {  
   List<Cell> flaggedCells = new ArrayList<>();
   for (Cell cell : gameBoard) {
@@ -120,9 +112,8 @@ public List<Cell> getFlaggedCells() {
   return flaggedCells;
 }
 ```
-</div>
 
-<div class="left f5">
+<div class="f4">
 
 - Readable Constants
 
@@ -142,6 +133,11 @@ public List<Cell> getFlaggedCells() {
 
   - Descriptive names
 </div>
+
+</div>
+
+</div>
+
 
 <div class="fragment">
 

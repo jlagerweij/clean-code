@@ -37,18 +37,19 @@ Deliberate Practice
 Code of Ethics
 
 ----
-#### Jos Lagerweij
+#### Clean Code
 
-<br/>
-
-Avisi
-
-jos.lagerweij@avisi.nl
+- Introduction
+- Naming
+- Functions
+- Classes
+- Formatting & comments
+- Hands-on Coding
 
 ----
 ## Clean Code ...
 
-<div class="no-bullets">
+<div class="no-bullets f3">
 
 - does one thing well - SRP           <!-- .element: class="fragment" -->
 
@@ -58,38 +59,24 @@ jos.lagerweij@avisi.nl
 
 - when each method you read turns out to be pretty much what you expected <!-- .element: class="fragment" -->
 
+- Any fool can write code that a computer understands, but few programmers know how to write code that a human can understand  -- Martin Fowler  <!-- .element: class="fragment" -->
+
+- Unit of measure: WTF / min <!-- .element: class="fragment" -->
+
 </div>
-
-----
-Any fool can write code that a computer understands,
-but few programmers know how to write code that a human can understand
-
--- Martin Fowler
-
-----
-## Unit of Measure
-
-The code is pretty much what you expected
-
-code quality meter (wtf / min) <!-- .element: class="fragment" -->
 
 ----
 ## Why Clean Code?
 
-True cost of software == its maintenance <!-- .element: class="fragment" -->
-
-80 % of the total <!-- .element: class="fragment" -->
+True cost of software == its maintenance  (80 % of the total)<!-- .element: class="fragment" -->
 
 Why so much? <!-- .element: class="fragment" -->
 
 Productivity drops with time <!-- .element: class="fragment" -->
 
-----
-## Why Clean Code?
+We READ 10x more than we WRITE <!-- .element: class="fragment" -->
 
-We READ 10x more than we WRITE
-
-* Make it more readable  <!-- .element: class="fragment" -->
+-> Make it more readable  <!-- .element: class="fragment" -->
 
 <div class="fragment">
 Boy scout rule:

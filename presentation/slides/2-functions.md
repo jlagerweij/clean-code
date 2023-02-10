@@ -1,6 +1,7 @@
 ## Functions
 
-----
+<div class="fragment">
+
 > A function should do one thing,
 >
 > it should do it well,
@@ -16,6 +17,7 @@
 They should be <span style="font-size: 5em">SMALL</span>
 </div>
 
+</div>
 ----
 ## Functions should be SMALL!
 
@@ -284,14 +286,16 @@ checkAndActivateCustomer(customer, order) {
 # So many Guidelines!
 
 ----
+<div class="f3">
+
 Uncle Bob in 'Clean Code':
 
-When I write functions, they come out long and complicated.
+When I write functions, they come out long and complicated.</br/>
 They have lots of indenting and nested loops.
 
 <div class="fragment">
 
-They have long argument lists.
+They have long argument lists.<br/>
 The names are arbitrary and there is duplicated code.
 </div>
 
@@ -306,6 +310,8 @@ I then massage and refine that code, splitting out functions, changing names, el
 I don't write them clean from the start.
 I don't think anyone could.
 </div>
+</div>
+
 ----
 # The Hat metaphor
 -- Kent Beck
