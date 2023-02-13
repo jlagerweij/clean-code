@@ -4,11 +4,15 @@ Clean Code
 
 When something is painful but you can't avoid doing it...
 
+<div class="r-stack">
+
 postpone it                   <!-- .element: class="fragment fade-in-then-out" -->
 
 delegate it                   <!-- .element: class="fragment fade-in-then-out" -->
 
-Do it more often!             <!-- .element: class="fragment" -->
+Do it more often!             <!-- .element: class="fragment fade-in" -->
+
+</div>
 
 "Bring the pain forward"    <!-- .element: class="fragment" -->
 
@@ -51,7 +55,7 @@ Code of Ethics
 
 <div class="no-bullets f3">
 
-- does one thing well - SRP           <!-- .element: class="fragment" -->
+- does one thing well - Single Responsibility Principle           <!-- .element: class="fragment" -->
 
 - reads like well written prose        <!-- .element: class="fragment" -->
 
@@ -68,6 +72,8 @@ Code of Ethics
 ----
 ## Why Clean Code?
 
+<div class="f3">
+
 True cost of software == its maintenance  (80 % of the total)<!-- .element: class="fragment" -->
 
 Why so much? <!-- .element: class="fragment" -->
@@ -76,12 +82,17 @@ Productivity drops with time <!-- .element: class="fragment" -->
 
 We READ 10x more than we WRITE <!-- .element: class="fragment" -->
 
--> Make it more readable  <!-- .element: class="fragment" -->
+<div class="fragment">
+
+<i class="fas fa-arrow-right"></i> Make it more readable
+</div>
 
 <div class="fragment">
 Boy scout rule:
 
 Always check in cleaner code than you found
+</div>
+
 </div>
 
 ----
